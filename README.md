@@ -52,7 +52,7 @@ TODO short description
 
 ### View History
 TODO short description
-| View History    ![](https://kelda.io/img/dksnap/view-history.gif)
+![](https://kelda.io/img/dksnap/view-history.gif)
 
 ### Boot Snapshot
 ![](https://kelda.io/img/dksnap/boot-snapshot.gif)
