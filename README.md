@@ -34,7 +34,7 @@ Or download the latest [release](https://github.com/kelda/dksnap/releases) and
 copy to your path.
 
 ### Demo
-Recreate the [demo](https://youtu.be/EaxEsOTKdrs) locally.
+Recreate the [demo](https://youtu.be/EaxEsOTKdrs) shown above locally.
 
 ```
 git clone https://github.com/kelda/dksnap.git
@@ -43,19 +43,23 @@ docker-compose up -d
 dksnap
 ```
 
-## Features
+## Key Features
 
 ### Create Snapshot
 ![](https://kelda.io/img/dksnap/create-snapshot.gif)
-TODO short description
+
+Create a snapshot of any running docker container.
 
 ### View History
 ![](https://kelda.io/img/dksnap/view-history.gif)
-TODO short description
+
+See how the snapshots you've created relate to each other with tree view and
+diff.
 
 ### Swap Snapshot
 ![](https://kelda.io/img/dksnap/swap-snapshot.gif)
-TODO short description
+
+Replace a running container with a new using the snapshot.
 
 ### Other Features
 
@@ -82,6 +86,9 @@ TODO short description
 
 - Can I use this with?
 
+- Does this capture process and memory state?
+    - Note currently
+
 
 - TODO what else?
 
@@ -103,6 +110,8 @@ dksnap
 
 ## Roadmap
 
+
+
 -Scriptable CMD Line Mode
 “regular CLI interface. particularly useful for automating snapshot generation”
 
@@ -113,5 +122,7 @@ dksnap
 - test all of the install scripts.
 - Host mages on kelda.io instead of in git repo.  Squash commits to achieve this.
 - TODO shrink example gifs
+
+- Full capture of process and memory state.
 
 TODO deal with below
