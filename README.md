@@ -1,3 +1,5 @@
+
+
 # ![dksnap logo](https://kelda.io/img/dksnap/dksnap-logo.svg)
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
@@ -51,15 +53,13 @@ TODO short description
 ![](https://kelda.io/img/dksnap/view-history.gif)
 TODO short description
 
-### Boot Snapshot
-![](https://kelda.io/img/dksnap/boot-snapshot.gif)
-TODO short description
-
 ### Swap Snapshot
 ![](https://kelda.io/img/dksnap/swap-snapshot.gif)
 TODO short description
 
 ### Other Features
+
+You can also boot a snapshot
 
 #### Database Aawareness
 TODO mention that dksnap is DB aware for the following
@@ -104,6 +104,7 @@ dksnap
 ## Roadmap
 
 -Scriptable CMD Line Mode
+“regular CLI interface. particularly useful for automating snapshot generation”
 
 # TODOs
 - Badges
