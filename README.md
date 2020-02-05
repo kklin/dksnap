@@ -5,7 +5,7 @@
 [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
 [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 
-[![Demo Gif](https://kelda.io/img/dksnap/create-snapshot.gif)](https://youtu.be/7Aaf5VCldLg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Aaf5VCldLg" frameborder="0" allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Docker Snapshots for Test Databases
 
