@@ -9,7 +9,19 @@
 
 ### Docker Snapshots for Test Databases
 
-`dksnap` allows you to create, view, and run snapshots of docker containers.
+`dksnap` creates, inspects, and runs snapshots of docker containers.
+
+The main use case for `dksnap` is during development and test.  Often times, it
+can take quite a while to run all of the initialization and setup necessary for
+a database, 
+
+
+
+Do you ever 
+
+
+DK snap is an easy way to great an image of your test database container, and
+reset back to it whenever you want.
 
 - TODO Outline
     - Typically when developing, particulary with docker compose, you've got a
@@ -62,15 +74,16 @@ TODO short description
 ![](https://kelda.io/img/dksnap/swap-snapshot.gif)
 TODO short description
 
-### Share Snapshots
-![](https://kelda.io/img/dksnap/share-snapshot.gif)
-TODO short description
+### Other Features
 
-### Database Aawareness
+#### Database Aawareness
 TODO mention that dksnap is DB aware for the following
 
 It also has a fallback mode that works for every container, 
 some featuers don't work in that case.
+
+#### Share Snapshots
+TODO short description
 
 ## FAQ
 
@@ -99,6 +112,8 @@ dksnap
 ### TODO What else should we say in Contributing?
 
 ## Roadmap
+
+-Scriptable CMD Line Mode
 
 # TODOs
 - Badges
