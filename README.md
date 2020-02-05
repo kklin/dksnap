@@ -51,8 +51,8 @@ dksnap
 TODO short description
 
 ### View History
-TODO short description
 ![](https://kelda.io/img/dksnap/view-history.gif)
+TODO short description
 
 ### Boot Snapshot
 ![](https://kelda.io/img/dksnap/boot-snapshot.gif)
@@ -64,6 +64,7 @@ TODO short description
 
 ### Share Snapshots
 ![](https://kelda.io/img/dksnap/share-snapshot.gif)
+TODO short description
 
 ### Database Aawareness
 TODO mention that dksnap is DB aware for the following
