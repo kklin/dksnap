@@ -1,5 +1,3 @@
-
-
 # ![dksnap logo](https://kelda.io/img/dksnap/dksnap-logo.svg)
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
@@ -7,7 +5,7 @@
 [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
 [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 
-[![Demo Gif](https://kelda.io/img/dksnap/create-snapshot.gif)](https://youtu.be/EaxEsOTKdrs)
+[![Demo Gif](https://kelda.io/img/dksnap/create-snapshot.gif)](https://youtu.be/7Aaf5VCldLg)
 
 ### Docker Snapshots for Test Databases
 
@@ -34,7 +32,7 @@ Or download the latest [release](https://github.com/kelda/dksnap/releases) and
 copy to your path.
 
 ### Demo
-Recreate the [demo](https://youtu.be/EaxEsOTKdrs) shown above locally.
+Recreate the [demo](https://youtu.be/7Aaf5VCldLg) shown above locally.
 
 ```
 git clone https://github.com/kelda/dksnap.git
