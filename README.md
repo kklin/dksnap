@@ -1,4 +1,4 @@
-[dksnap logo](https://kelda.io/img/dksnap/dksnap-logo2.png)
+<img src="https://kelda.io/img/dksnap/dksnap-logo2.png" width="350" height="100%">
 
 ## Docker Snapshots for Dev & Test Data
 
