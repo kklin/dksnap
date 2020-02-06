@@ -1,5 +1,6 @@
 [dksnap logo](https://kelda.io/img/dksnap/dksnap-logo2.png)
-### Docker Snapshots for Dev & Test Data
+
+## Docker Snapshots for Dev & Test Data
 
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
