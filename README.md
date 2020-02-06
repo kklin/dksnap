@@ -1,19 +1,21 @@
 # ![dksnap logo](https://kelda.io/img/dksnap/dksnap-logo2.png)
+### Docker Snapshots for Dev & Test Data
+
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
 [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 
-[![Demo Gif](https://kelda.io/img/dksnap/dksnap-demo2.gif)](https://youtu.be/7Aaf5VCldLg)
+[![Demo Gif](./gifs/dksnap-demo3.gif)](https://youtu.be/7Aaf5VCldLg)
 
-## Docker Snapshots for Dev & Test Data
 
-`dksnap` creates, inspects, and runs snapshots of Docker containers.  Often
-when testing locally, we run containerized versions of databases like Mongo,
-Postgres, MySQL, and others.  Setting up such a container with exactly the
-data you need for a particular set of tests can be quite a chore.  Especially
-if it needs to be done multiple times a day.
+`dksnap` creates, inspects, and runs snapshots of Docker containers.
+
+Often when testing locally, we run containerized versions of databases like
+Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
+you need for a particular set of tests can be quite a chore.  Especially if it
+needs to be done multiple times a day.
 
 `dksnap` allows you to create and manage snapshots of container images. This
 allows you to:
@@ -59,7 +61,7 @@ dksnap
 ## Key Features
 
 ### Create Snapshot
-![Create a Snapshot](https://kelda.io/img/dksnap/create-snapshot.gif)
+![Create a Snapshot](./gifs/create-snapshot2.gif)
 
 Create a snapshot of **any** running Docker container. `dksnap` works with any
 Docker container, but has extra features for select databases.
@@ -70,14 +72,14 @@ Docker container, but has extra features for select databases.
   dump its contents before creating a Docker image.
 
 ### Replace Container
-![](https://kelda.io/img/dksnap/swap-snapshot.gif)
+![](./gifs/replace-snapshot.gif)
 
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
 will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
 
 ### View Snapshots
-![](https://kelda.io/img/dksnap/view-history.gif)
+![](./gifs/view-history.gif)
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
 snapshots you've created.  You can:
