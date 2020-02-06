@@ -7,7 +7,7 @@
 [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
 [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 
-[![Demo Gif](./gifs/dksnap-demo3.gif)](https://youtu.be/7Aaf5VCldLg)
+[<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
 
 
 `dksnap` creates, inspects, and runs snapshots of Docker containers.
@@ -61,7 +61,7 @@ dksnap
 ## Key Features
 
 ### Create Snapshot
-![Create a Snapshot](./gifs/create-snapshot2.gif)
+<img src="./gifs/create-snapshot2.gif" width="250" height="100%">
 
 Create a snapshot of **any** running Docker container. `dksnap` works with any
 Docker container, but has extra features for select databases.
@@ -72,14 +72,14 @@ Docker container, but has extra features for select databases.
   dump its contents before creating a Docker image.
 
 ### Replace Container
-![](./gifs/replace-snapshot.gif)
+<img src="./gifs/replace-snapshot.gif" width="250" height="100%">
 
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
 will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
 
 ### View Snapshots
-![](./gifs/view-history2.gif)
+<img src="./gifs/view-history2.gif" width="250" height="100%">
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
 snapshots you've created.  You can:
