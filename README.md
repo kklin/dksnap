@@ -1,4 +1,4 @@
-# ![dksnap logo](https://kelda.io/img/dksnap/dksnap-logo2.png)
+[dksnap logo](https://kelda.io/img/dksnap/dksnap-logo2.png)
 ### Docker Snapshots for Dev & Test Data
 
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
@@ -41,7 +41,7 @@ curl https://kelda.io/install-dksnap.sh | sh
 Or download the latest [release](https://github.com/kelda/dksnap/releases) and
 copy to your path.
 
-#### Demo
+### Demo
 Watch the [demo](https://youtu.be/7Aaf5VCldLg), or try it yourself with
 step-by-step [instructions](./demo/README.md):
 
