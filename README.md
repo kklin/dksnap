@@ -79,7 +79,7 @@ will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
 
 ### View Snapshots
-![](./gifs/view-history.gif)
+![](./gifs/view-history2.gif)
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
 snapshots you've created.  You can:
