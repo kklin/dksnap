@@ -61,7 +61,7 @@ dksnap
 ## Key Features
 
 ### Create Snapshot
-<img src="./gifs/create-snapshot2.gif" width="250" height="100%">
+<img src="./gifs/create-snapshot2.gif" width="450" height="100%">
 
 Create a snapshot of **any** running Docker container. `dksnap` works with any
 Docker container, but has extra features for select databases.
@@ -72,14 +72,14 @@ Docker container, but has extra features for select databases.
   dump its contents before creating a Docker image.
 
 ### Replace Container
-<img src="./gifs/replace-snapshot.gif" width="250" height="100%">
+<img src="./gifs/replace-snapshot.gif" width="450" height="100%">
 
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
 will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
 
 ### View Snapshots
-<img src="./gifs/view-history2.gif" width="250" height="100%">
+<img src="./gifs/view-history2.gif" width="450" height="100%">
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
 snapshots you've created.  You can:
