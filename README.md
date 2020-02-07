@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./gifs/logo.svg" width="500" height="100%">
+  <img src="./gifs/logo.svg" width="400" height="100%">
   <h2>Docker Snapshots for Dev & Test Data</h2>
 
   [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
