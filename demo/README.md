@@ -1,8 +1,8 @@
 # Try out `dksnap`
 
-This directory contains an example `node`
-[application](https://github.com/scotch-io/node-todo) that stores data in
-`mongo`.
+This directory contains an example `node` application that stores data in
+`mongo`. Shout out to the original author,
+[scotch-io](https://github.com/scotch-io/node-todo).
 
 The following instructions will walk you through using `dksnap` to create a
 snapshot, and rollback to it. Click the image below to view a video of the demo.
