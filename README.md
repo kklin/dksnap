@@ -2,14 +2,15 @@
   <img src="./gifs/logo.svg" width="400" height="100%">
   <h1>Docker Snapshots for Dev & Test Data</h1>
 
-  [Create Snapshots](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Replace Running Containers](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[View Snapshot History](TODO)<br/>
-  [Demo](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[FAQ](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](TODO)<br/>
-
   [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
   [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
   [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
   [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
+
+  [Create Snapshots](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Replace Running Containers](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[View Snapshot History](TODO)<br/>
+  [Demo](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[FAQ](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](TODO)<br/>
+
 </div>
 
 <br/>
