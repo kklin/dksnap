@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./gifs/logo.svg" width="400" height="100%">
+  <img src="https://kelda.io/img/dksnap/logo.svg" width="400" height="100%">
   <h1>Docker Snapshots for Dev & Test Data</h1>
 
   [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
@@ -27,7 +27,7 @@ For a full description of why we built this, check out this
 
 <br/>
 
-[<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
+[<img src="https://kelda.io/img/dksnap/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
 
 # Install
 Install on MacOS or Linux:
@@ -59,7 +59,7 @@ dksnap
 # Key Features
 
 ## Create Snapshot
-<img src="./gifs/create-snapshot2.gif" width="450" height="100%">
+<img src="https://kelda.io/img/dksnap/create-snapshot2.gif" width="450" height="100%">
 
 Create a snapshot of any running Docker container. `dksnap` works with any
 container, but has extra features for select databases.
@@ -70,14 +70,14 @@ container, but has extra features for select databases.
   dump its contents before creating a Docker image.
 
 ## Replace Container
-<img src="./gifs/replace-snapshot.gif" width="450" height="100%">
+<img src="https://kelda.io/img/dksnap/replace-snapshot.gif" width="450" height="100%">
 
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
 will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
 
 ## View Snapshots
-<img src="./gifs/view-history2.gif" width="450" height="100%">
+<img src="https://kelda.io/img/dksnap/view-history2.gif" width="450" height="100%">
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
 snapshots you've created.  You can:
