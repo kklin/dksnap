@@ -1,6 +1,5 @@
-<img src="./gifs/logo.svg" width="200" height="100%">
-
-# Docker Snapshots for Dev & Test Data
+<p align="center"><img src="./gifs/logo.svg" width="200" height="100%"></p>
+<p align="center"><h1>Docker Snapshots for Dev & Test Data</h1></p>
 
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
