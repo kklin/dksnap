@@ -2,6 +2,8 @@
   <img src="./gifs/logo.svg" width="400" height="100%">
   <h1>Docker Snapshots for Dev & Test Data</h1>
 
+  [Create Snapshots][TODO]&nbsp;&nbsp;&nbsp;|[Replace Running Containers][TODO]&nbsp;&nbsp;&nbsp;|[View Snapshot History][TODO]&nbsp;&nbsp;&nbsp;|
+
   [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
   [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -11,39 +13,24 @@
 
 <br/>
 
-**`dksnap` creates, inspects, and runs snapshots of Docker containers.**
+**`dksnap` creates, inspects, and runs snapshots of Docker containers**
 
 Often when testing locally, we run containerized versions of databases like
 Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
 you need for a particular set of tests can be quite a chore.  Especially if it
 needs to be done multiple times a day.
+
+For a full description of why we built this, check out this
+[blogpost](https://kelda.io/todo).
 
 <br/>
 
 [<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
 
-# Create Consistent Data Images Using Docker Containers
-
-`dksnap` creates, inspects, and runs snapshots of Docker containers.
-
-Often when testing locally, we run containerized versions of databases like
-Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
-you need for a particular set of tests can be quite a chore.  Especially if it
-needs to be done multiple times a day.
-
-`dksnap` allows you to create and manage snapshots of container images. This
-allows you to:
-
 * **Create** a snapshot of your database container in a good state.
 * **Replace** a running container with a snapshot you've created.
 * **View** a tree of all your snapshots and diffs showing how they've changed.
 
-For a full description of why we built this, check out this
-[blogpost](https://kelda.io/todo).
-
-`dksnap` is in **alpha**. It's ready for daily use, but still under heavy
-development, so expect the occasional bug.  Please report any
-[issues](https://github.com/kelda/dksnap/issues) you may run into.
 
 ## Install
 Install on MacOS or Linux:
@@ -152,6 +139,12 @@ them fully compatible with all of the things you would normally do with an
 image (run, push, delete, etc). You could handcraft Docker images to mimic
 `dksnap` snapshots, but `dksnap` makes it easy to create them from running
 containers.
+
+#### Can I use it now?
+
+`dksnap` is in **alpha**. It's ready for daily use, but still under heavy
+development, so expect the occasional bug.  Please report any
+[issues](https://github.com/kelda/dksnap/issues) you may run into.
 
 ####  Can I use this in production?
 `dksnap` is not intended for use in production.  You, of course, may do what
