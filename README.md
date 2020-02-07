@@ -8,8 +8,8 @@
   [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
   [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 
-  [Create Snapshots](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Replace Running Containers](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[View Snapshot History](TODO)<br/>
-  [Demo](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[FAQ](TODO)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](TODO)<br/>
+  [Create Snapshots](#create-snapshot)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Replace Running Containers](#replace-container)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[View Snapshot History](#view-snapshots)<br/>
+  [Demo](#demo)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[FAQ](#faq)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](#roadmap)<br/>
 
 </div>
 
@@ -61,8 +61,8 @@ dksnap
 ## Create Snapshot
 <img src="./gifs/create-snapshot2.gif" width="450" height="100%">
 
-Create a snapshot of **any** running Docker container. `dksnap` works with any
-Docker container, but has extra features for select databases.
+Create a snapshot of any running Docker container. `dksnap` works with any
+container, but has extra features for select databases.
 * Snapshots are volume aware.  They will capture data in volumes as well as in
   the container image.
 * Snapshots are database aware.  When snapshotting databases that implement the
@@ -81,9 +81,8 @@ and restart the container using the same Docker command arguments.
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
 snapshots you've created.  You can:
-* See a tree of all the snapshots and how they relate to each other.
-* See the diff between a snapshot and its parent.
-* Create/Boot/Replace snapshots from the UI.
+* See a **tree** of all the snapshots and how they relate to each other.
+* See the **diff** between a snapshot and its parent.
 
 ## Other Features
 
@@ -102,9 +101,6 @@ restore database contents for the following databases:
 
 It has a plugin architecture making it easy to add more databases in the
 future.
-
-When `dksnap` detects a supported database, it automatically switches to the
-database-specific approach.
 
 ### Docker Images
 `dksnap` images are simply Docker images with some additional metadata.  This
@@ -137,15 +133,11 @@ image (run, push, delete, etc). You could handcraft Docker images to mimic
 `dksnap` snapshots, but `dksnap` makes it easy to create them from running
 containers.
 
-#### Can I use it now?
+#### Is it ready to use?
 
 `dksnap` is in **alpha**. It's ready for daily use, but still under heavy
 development, so expect the occasional bug.  Please report any
 [issues](https://github.com/kelda/dksnap/issues) you may run into.
-
-####  Can I use this in production?
-`dksnap` is not intended for use in production.  You, of course, may do what
-you like.
 
 ####  Does `dksnap` capture CPU and RAM?
 Not currently -- it's on the roadmap.  Let us know if this would be useful.
