@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./gifs/logo.svg" width="400" height="100%">
-  <h2>Docker Snapshots for Dev & Test Data</h2>
+  <h1>Docker Snapshots for Dev & Test Data</h1>
 
   [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
   [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
@@ -8,6 +8,13 @@
   [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
   [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 </div>
+
+`dksnap` creates, inspects, and runs snapshots of Docker containers.
+
+Often when testing locally, we run containerized versions of databases like
+Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
+you need for a particular set of tests can be quite a chore.  Especially if it
+needs to be done multiple times a day.
 
 [<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
 
