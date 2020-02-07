@@ -2,7 +2,7 @@
   <img src="./gifs/logo.svg" width="400" height="100%">
   <h1>Docker Snapshots for Dev & Test Data</h1>
 
-  [Create Snapshots][TODO]&nbsp;&nbsp;&nbsp;|[Replace Running Containers][TODO]&nbsp;&nbsp;&nbsp;|[View Snapshot History][TODO]&nbsp;&nbsp;&nbsp;|
+  [Create Snapshots](TODO)&nbsp;&nbsp;&nbsp;|[Replace Running Containers](TODO)&nbsp;&nbsp;&nbsp;|[View Snapshot History](TODO)&nbsp;&nbsp;&nbsp;|
 
   [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
   [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
@@ -26,11 +26,6 @@ For a full description of why we built this, check out this
 <br/>
 
 [<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
-
-* **Create** a snapshot of your database container in a good state.
-* **Replace** a running container with a snapshot you've created.
-* **View** a tree of all your snapshots and diffs showing how they've changed.
-
 
 ## Install
 Install on MacOS or Linux:
