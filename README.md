@@ -8,14 +8,14 @@
   [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
   [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 
-  [Create Snapshots](#create-snapshot)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Replace Running Containers](#replace-container)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[View Snapshot History](#view-snapshots)<br/>
+  [Create Snapshots](#create-snapshots)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[View Snapshots](#view-snapshots)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Run Snapshots](#replace-running-containers)<br/>
   [Demo](#demo)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[FAQ](#faq)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](#roadmap)<br/>
 
 </div>
 
 <br/>
 
-**`dksnap` [creates](TODO), [inspects](TODO), and [runs](TODO) snapshots of Docker containers**
+**`dksnap` [creates](#create-snapshots), [inspects](#view-snapshots), and [runs](#replace-running-containers) snapshots of Docker containers**
 
 Often when testing locally, we run containerized versions of databases like
 Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
@@ -58,7 +58,7 @@ dksnap
 
 # Key Features
 
-## Create Snapshot
+## Create Snapshots
 <img src="https://kelda.io/img/dksnap/create-snapshot2.gif" width="450" height="100%">
 
 Create a snapshot of any running Docker container. `dksnap` works with any
@@ -69,7 +69,7 @@ container, but has extra features for select databases.
   [plugin interface](./pkg/snapshot/types.go), `dksnap` will politely ask the database process to
   dump its contents before creating a Docker image.
 
-## Replace Container
+## Replace Running Containers
 <img src="https://kelda.io/img/dksnap/replace-snapshot.gif" width="450" height="100%">
 
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
