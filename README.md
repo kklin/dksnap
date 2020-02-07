@@ -15,7 +15,7 @@
 
 <br/>
 
-**`dksnap` creates, inspects, and runs snapshots of Docker containers**
+**`dksnap` [creates](TODO), [inspects](TODO), and [runs](TODO) snapshots of Docker containers**
 
 Often when testing locally, we run containerized versions of databases like
 Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
@@ -29,7 +29,7 @@ For a full description of why we built this, check out this
 
 [<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
 
-## Install
+# Install
 Install on MacOS or Linux:
 
 ```
@@ -39,7 +39,7 @@ curl https://kelda.io/install-dksnap.sh | sh
 Or download the latest [release](https://github.com/kelda/dksnap/releases) and
 copy to your path.
 
-### Demo
+## Demo
 Watch the [demo](https://youtu.be/7Aaf5VCldLg), or try it yourself with
 step-by-step [instructions](./demo/README.md):
 
@@ -56,9 +56,9 @@ dksnap
 ```
 
 
-## Key Features
+# Key Features
 
-### Create Snapshot
+## Create Snapshot
 <img src="./gifs/create-snapshot2.gif" width="450" height="100%">
 
 Create a snapshot of **any** running Docker container. `dksnap` works with any
@@ -69,14 +69,14 @@ Docker container, but has extra features for select databases.
   [plugin interface](./pkg/snapshot/types.go), `dksnap` will politely ask the database process to
   dump its contents before creating a Docker image.
 
-### Replace Container
+## Replace Container
 <img src="./gifs/replace-snapshot.gif" width="450" height="100%">
 
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
 will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
 
-### View Snapshots
+## View Snapshots
 <img src="./gifs/view-history2.gif" width="450" height="100%">
 
 `dksnap` includes a terminal browser allowing you to view and manipulate the
@@ -85,15 +85,15 @@ snapshots you've created.  You can:
 * See the diff between a snapshot and its parent.
 * Create/Boot/Replace snapshots from the UI.
 
-### Other Features
+## Other Features
 
-#### Works With Any Container
+### Works With Any Container
 
 By default, `dksnap` creates snapshots by committing the container's
 filesystem with `docker commit`, and dumping the contents of all attached
 volumes.
 
-#### Database Awareness
+### Database Awareness
 `dksnap` is database aware, meaning it knows how to nicely dump and
 restore database contents for the following databases:
 * Mongo
@@ -106,23 +106,23 @@ future.
 When `dksnap` detects a supported database, it automatically switches to the
 database-specific approach.
 
-#### Docker Images
+### Docker Images
 `dksnap` images are simply Docker images with some additional metadata.  This
 means they can be viewed and manipulated using the standard `docker` command
 line tools.
 
-#### Share Snapshots
+### Share Snapshots
 Because `dksnap` stores all of the snapshot information in a `docker` image,
 you can share your snapshot by pushing and pulling to Docker registries just
 like you would any other Docker container.
 
-#### Volume Awareness
+### Volume Awareness
 Snapshots are volume aware. The official database images all store their data
 in volumes (for good reason) which `docker commit` does not capture.  `dksnap`
 saves your volumes as well as the container’s filesystem so that all of the
 container’s state is saved.
 
-## FAQ
+# FAQ
 
 #### How is this different than `docker commit`?
 `dksnap` uses Docker commit for its generic snapshot approach to capture the
@@ -150,14 +150,14 @@ you like.
 ####  Does `dksnap` capture CPU and RAM?
 Not currently -- it's on the roadmap.  Let us know if this would be useful.
 
-## Roadmap
+# Roadmap
 
 * Automated snapshot creation from production and staging databases in CI.
 * A non-graphical CLI interface that's scriptable.
 * Native support for additional databases.
 * Snapshot of CPU and RAM state as well.
 
-## Contributing
+# Contributing
 
 `dksnap` is still in alpha and under heavy development.  Contributions are very
 much welcome so please get involved.  Check out the [contribution
