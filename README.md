@@ -1,12 +1,12 @@
 <div align="center">
-    <img src="./gifs/logo.svg" width="500" height="100%">
-    <h2>Docker Snapshots for Dev & Test Data</h2>
+  <img src="./gifs/logo.svg" width="500" height="100%">
+  <h2>Docker Snapshots for Dev & Test Data</h2>
 
-    [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
-    [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-    [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
-    [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
+  [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
+  [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+  [![Slack](https://kelda.io/img/dksnap/slack-badge.svg)](http://slack.kelda.io)
+  [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 </div>
 
 [<img src="./gifs/dksnap-demo3.gif" width="100%" height="100%">](https://youtu.be/fmYGfs632-g)
