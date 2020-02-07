@@ -9,9 +9,7 @@
   [![Made by Kelda](https://kelda.io/img/dksnap/love-badge.svg)](https://kelda.io)
 </div>
 
-<br/>
-
-**`dksnap` creates, inspects, and runs snapshots of Docker containers.**
+## `dksnap` creates, inspects, and runs snapshots of Docker containers.
 
 Often when testing locally, we run containerized versions of databases like
 Mongo, Postgres, and MySQL.  Setting up such a container with exactly the data
